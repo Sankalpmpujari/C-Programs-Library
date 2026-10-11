@@ -19,6 +19,7 @@ A collection of foundational C programming implementations demonstrating classic
 | `factorial.c` | Factorial (Recursion) | Computes the factorial of non-negative integers using recursive function calls. |
 | `file_io.c` | File I/O Operations | Demonstrates writing formatted text to a file (`fopen`, `fputs`) and reading it back (`fgets`, `fclose`). |
 | `matrix_multiplication.c` | Matrix Multiplication | Multiplies two matrices of dimensions (2x3 and 3x2) and displays the resulting product matrix (2x2). |
+| `binary_search.c` | Binary Search | Efficiently searches for a target element in a sorted array using divide-and-conquer in $O(\log n)$ time. |
 
 ---
 
@@ -48,6 +49,9 @@ gcc file_io.c -o file_io
 
 # Compile Matrix Multiplication
 gcc matrix_multiplication.c -o matrix_multiplication
+
+# Compile Binary Search
+gcc binary_search.c -o binary_search
 ```
 
 ### 2. Run the Compiled Executable
